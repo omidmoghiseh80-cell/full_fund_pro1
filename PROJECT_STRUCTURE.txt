@@ -1,0 +1,21 @@
+ROBIN SOOD LANDING — STRUCTURE
+
+Editable files:
+1) index.html       -> page content / sections
+2) src/style.css    -> all styles
+3) src/app.js       -> all frontend behavior + Cloudflare Worker endpoint
+
+Assets:
+assets/brand/       -> logo + favicon
+assets/cards/       -> section/card illustrations
+assets/icons/       -> challenge/trust icons
+assets/media/       -> hero poster + videos
+
+Lead output:
+leads/consultation/ -> daily TXT files created by Cloudflare Worker
+
+SECURITY:
+- No GitHub token, SMS token, API key, password or secret is stored in this repository.
+- GITHUB_TOKEN must remain only in Cloudflare Worker Secrets.
+- The frontend only contains the public Worker endpoint.
+- Do not add .env files or tokens to this repository.
